@@ -5,3 +5,10 @@ Manifest.toml
 Rules.md
 _working/
 .codex/
+_python_scorecards/
+
+scr/
+bin/
+linux.gfortran.mpi.ubuntu/
+WebgraF/
+wrk/
