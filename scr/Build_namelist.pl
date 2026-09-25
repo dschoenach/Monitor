@@ -68,6 +68,7 @@
  $obint   = $ENV{'OBINT_'.$type};
 
  $nameread{'read_section'}{'NEXP'}   =scalar(@exp) ;
+ $nameread{'read_section'}{'CONTROL_EXP_NR'}=$ENV{CONTROL_EXP_NR} || 1;
  $nameread{'read_section'}{'EXPNAME'}=$dexp;
  $nameread{'read_section'}{'FEXPNAME'}=$exp;
  $nameread{'read_section'}{'MODPATH'}=$modpath ;

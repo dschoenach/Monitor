@@ -6,6 +6,7 @@ Rules.md
 _working/
 .codex/
 _python_scorecards/
+__pycache__/
 
 scr/
 bin/

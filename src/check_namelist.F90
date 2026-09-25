@@ -19,6 +19,11 @@ SUBROUTINE check_namelist
  WRITE(6,*)'-Check namelist options-'
  WRITE(6,*)
 
+ IF (control_exp_nr < 1 .OR. control_exp_nr > nexp) THEN
+    WRITE(6,*)'CONTROL_EXP_NR must be between 1 and NEXP:',control_exp_nr,nexp
+    CALL abort
+ ENDIF
+
  !
  ! Conditional settings
  !
