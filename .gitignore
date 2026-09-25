@@ -2,3 +2,6 @@
 docs/build/
 Manifest.toml
 
+Rules.md
+_working/
+.codex/
